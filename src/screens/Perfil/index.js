@@ -46,7 +46,7 @@ const ProfileScreen = () => {
               borderBottomWidth: 1,
               borderBottomColor: '#ccc',
               paddingLeft: 16,
-              marginBottom: 16, // adicionado espaço entre as abas
+              marginBottom: 16,
             }}
           >
             <FontAwesome5 name={item.icon} size={24} color="black" />
@@ -57,7 +57,7 @@ const ProfileScreen = () => {
               name="chevron-right"
               size={24}
               color="black"
-              style={{ marginRight: 16 }} // adicionado estilo marginRight
+              style={{ marginRight: 16 }}
             />
           </View>
         ))}
